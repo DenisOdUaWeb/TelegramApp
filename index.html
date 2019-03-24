@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>TelegramApp</title>
+    <link href="app.css" rel="stylesheet">
+    <!-- <script type="text/javascript" src="data.json"></script> -->
+    <!-- <script type="text/javascript" src="app.js"></script>	 -->
+
+</head>
+<body id="body">
+
+<div id="choose_chatr_wrapper"><button id="choose_chatr_btn">Chart selection button</button></div>
+
+<div id="canvas_xl_wrapper" style="margin:4vw; position:relative;">
+	<canvas id="canvas_xl" height="500"></canvas>
+	<div id="flag" style="width: 100px; min-height: 50px;max-height: 150px; border:1px solid #777; border-radius:5px; position: absolute; top:0; z-index: 100; background-color: #fff; left:-200px; padding: 6px;line-height: 1.7; opacity: 0.82;"></div>
+	<div id="canvas_values" height="300" width="100" style="position: absolute; left:0;top:0; overflow: visible; width: 3px;">
+		<div id="1" class="values"></div>
+		<div id="2" class="values"></div>
+		<div id="3" class="values"></div>
+		<div id="4" class="values"></div>
+		<div id="5" class="values"></div>
+		<div id="6" class="values">0</div>
+	</div>
+</div>
+<div id="dates_wrapper" style=" height: 40px;margin: 4vw; overflow: hidden;position: relative;">
+	<canvas id="canvas_date"  height="50" style="position:absolute;"></canvas>
+</div>
+
+<div id="canvas_s_wrapper" style="position:relative; margin:4vw; height:100px;">
+	<canvas id="canvas_s"  height="100" style="position:absolute;"></canvas>
+	<div id="square" style="height: 100px; width:150px; border: 1px solid #000; position: absolute; left:300px; border-left:0; border-right:0;">
+		<div id="leftDrag" style="position:absolute;left:0px; width:10px; height: 100px; background-color: #777;">
+		</div>
+		<div id="rightDrag" style="position:absolute; right:0px; width:10px; height: 100px; background-color: #777;">
+		</div>
+	</div>
+</div>
+
+<div id="line_buttons">
+
+	<!-- <label for="#1"><button name="#1">BUTTON</button> LABEL </label> -->
+</div>
+
+<div id="charts_button_parrent" style="position: absolute; top:0; left:0; width: 98vw; height: 100vh; transition:all 0.5s; background: #fff; opacity: 0.85;">
+	<button id="chart1" class="charts_button">chart1</button>
+	<button id="chart2" class="charts_button">chart2</button>
+	<button id="chart3" class="charts_button">chart3</button>
+	<button id="chart4" class="charts_button">chart4</button>
+	<button id="chart5" class="charts_button">chart5</button>
+</div>
+<!-- <button id="square33" style="height: 100px;width: 100px;" > square </button> -->
+
+<!-- <img id="square22" src="dragme.png"> -->
+
+
+<!-- canvas FOR PAINT TESTER ANDOID -->
+<!-- <div id="canvas_paint_wrapper">
+	<canvas id="canvas_paint" width="1000" height="700" style="border:1px solid #000;"></canvas>
+</div> -->
+<!-- END  canvas FOR PAINT TESTER ANDOID -->
+
+<!-- WORK WITH DATE -->
+<script type="text/javascript">
+
+// 	var someDate = new Date(1544400000000);  //someDate = 1542326400000;
+// 	var options = {
+// 			month: 'long'
+// 	};
+// 	var Day = someDate.getDate();
+	
+// 	var Month = someDate.toLocaleString("en-US", options);
+	
+// 	alert(Day + " " + Month + " asd");
+
+// var date = new Date(1544400000000);
+
+// var options = {
+//   month: 'long',
+//   day: 'numeric'
+// };
+
+// alert( date.toLocaleString("ru", options) ); // среда, 31 декабря 2014 г. н.э. 12:30:00
+// alert( date.toLocaleString("en-US", options) ); // Wednesday, December 31, 2014 Anno Domini 12:30:00 PM
+</script>
+
+<script type="text/javascript" src="app.js"></script>	
+</body>
+</html>
