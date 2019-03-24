@@ -1,0 +1,64 @@
+*{
+	outline: none;
+
+}
+.hidden{
+	width:0px !important;
+	opacity:0;
+	overflow: hidden !important;
+	 transition: 0.5s;
+}
+.visible{
+	width: 16.5vw !important;
+	opacity:1;
+	transition: 0.5s;
+}
+#dates_wrapper div{
+	#transition: 0.2s;
+}
+.values{
+	 margin-bottom: 30px;
+   font: italic 16px arial;
+}
+.charts_button{
+	display: block;
+	width: 30vw;
+	height: 10vh;
+	margin: 4vw auto;
+}
+#choose_chatr_wrapper{
+margin: 25px;
+}
+#choose_chatr_btn{
+	margin: 25px;
+	   border-color: #555;
+   border-radius: 9px;
+   height: 40px;
+   margin: 25px;
+   width: 230px;
+}
+
+.lineWrap{
+	  display: inline-block;
+    padding: 10px;
+    border: 1px solid #888;
+    border-radius: 35px;
+    margin: 10px;
+    #width: 100px;
+    #text-align: center;
+}
+.lineWrap label{
+	 text-align: center;
+	 padding: 20px;
+	  font-family: Arial,Helvetica,sans-serif;
+    font-size: 23px;
+}
+
+.line_buttons_wr{
+		 background: #555 none repeat scroll 0 0;
+    border: 4px solid #777;
+    border-radius: 50%;
+    height: 17px;
+    width: 32px;
+}
+
